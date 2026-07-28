@@ -12,6 +12,11 @@ export function Achievements() {
       title: "Full Stack Python",
       issuer: "Summer Training Program",
       icon: Trophy
+    },
+    {
+      title: "Python Full Stack Developer",
+      issuer: "Udemy Certified",
+      icon: Award
     }
   ];
 

@@ -49,10 +49,13 @@ export function About() {
             <div className="md:col-span-7 space-y-6">
               <div className="space-y-4 text-base text-muted-foreground leading-relaxed font-mono">
                 <p>
-                  <span className="text-primary">{">"}</span> I am a Computer Science undergraduate in my third year with a strong interest in Frontend Development and Python Full Stack Development. I'm passionate about building clean, responsive user interfaces and continuously learning new technologies.
+                  <span className="text-primary">{">"}</span> I am a Computer Science undergraduate in my fourth year with a strong interest in Frontend Development and Python Full Stack Development. I'm passionate about building clean, responsive user interfaces and continuously learning new technologies.
                 </p>
                 <p>
                   <span className="text-primary">{">"}</span> My technical journey is grounded in solid core concepts—Data Structures, Algorithms, Operating Systems, and DBMS—paired with practical skills in HTML, CSS, JavaScript, and Python. I love bridging the gap between elegant design and robust backend logic.
+                </p>
+                <p>
+                  <span className="text-primary">{">"}</span> I've applied basic AI/ML concepts to real Python projects and have hands-on experience in full-stack web development, mobile app development, and data preparation — seeking an entry-level Software Developer role.
                 </p>
               </div>
 
@@ -63,11 +66,11 @@ export function About() {
                       <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono">CGPA</span>
                    </div>
                    <div className="border border-primary bg-card p-4 flex flex-col items-center justify-center text-center shadow-[inset_0_0_20px_rgba(255,0,48,0.05)]">
-                      <span className="text-2xl md:text-3xl font-black text-primary mb-1">2</span>
+                      <span className="text-2xl md:text-3xl font-black text-primary mb-1">3</span>
                       <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono">Certifications</span>
                    </div>
                    <div className="col-span-2 border border-primary bg-card p-4 flex flex-col items-center justify-center text-center shadow-[inset_0_0_20px_rgba(255,0,48,0.05)]">
-                      <span className="text-2xl md:text-3xl font-black text-primary mb-1">3rd Year</span>
+                      <span className="text-2xl md:text-3xl font-black text-primary mb-1">4th Year</span>
                       <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono">B.Tech CSE Student</span>
                    </div>
                 </div>

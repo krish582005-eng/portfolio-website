@@ -4,22 +4,32 @@ import { BriefcaseBusiness, Calendar } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      title: "Software Engineer Intern",
+      title: "AI/ML Intern",
       company: "SRDT Pvt. Ltd",
-      date: "Sept 2025",
+      date: "Mar 2026 — Present",
       location: "India",
       description: [
-        "Formulate and implement Python skills.",
-        "Full stack development with Python in creating projects."
+        "Applied basic AI/ML concepts to small Python projects.",
+        "Assisted in data preparation and model testing workflows."
+      ]
+    },
+    {
+      title: "Software Engineer Intern",
+      company: "SRDT Pvt. Ltd",
+      date: "Sep 2025 – Feb 2026",
+      location: "India",
+      description: [
+        "Built and enhanced web applications in Python across the full development cycle — requirements, coding, testing, and debugging.",
+        "Collaborated with senior engineers on code quality via peer review and troubleshooting."
       ]
     },
     {
       title: "Mobile Application Developer Course",
-      company: "L&T EDUTECH CERTIFIED",
+      company: "L&T EduTech Certified",
       date: "2024",
       location: "India",
       description: [
-        "Built mobile applications using web skills under guidance of L&T Edutech mobile application developers program."
+        "Built a mobile application applying core web and programming skills under mentor guidance."
       ]
     }
   ];

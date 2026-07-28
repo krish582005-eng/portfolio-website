@@ -101,7 +101,7 @@ export function Hero({ onMatrixToggle }: { onMatrixToggle: () => void }) {
           >
             <span className="text-primary">{">"}</span>
             <span className="typewriter-cycle text-foreground font-bold">
-              Frontend Developer
+              Web Developer
             </span>
           </motion.h2>
 
@@ -111,7 +111,7 @@ export function Hero({ onMatrixToggle }: { onMatrixToggle: () => void }) {
             transition={{ duration: 0.4, delay: 0.7 }}
             className="text-muted-foreground mb-8 max-w-md font-mono text-sm leading-relaxed border-l-2 border-primary/40 pl-4"
           >
-            Building clean interfaces. Writing powerful Python. NCC Cadet.
+            Building intelligent systems. Writing powerful Python. NCC Cadet.
           </motion.p>
 
           <motion.div

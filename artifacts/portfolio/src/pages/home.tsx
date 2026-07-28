@@ -80,7 +80,7 @@ function SidebarContent({
           </h1>
           <div className="text-xs font-mono text-primary flex items-center justify-center gap-1">
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-primary animate-ping" />
-            <span>Frontend Developer</span>
+            <span>Web Developer</span>
           </div>
           <div className="text-[10px] font-mono text-muted-foreground uppercase tracking-widest flex items-center justify-center gap-1.5">
             <MapPin className="w-3 h-3 text-primary animate-pulse" /> Lucknow, India

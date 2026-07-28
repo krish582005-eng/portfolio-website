@@ -49,7 +49,7 @@ export function TerminalConsole({ onMatrixToggle }: { onMatrixToggle: () => void
       case "about":
         setOutputLines((prev) => [...prev, 
           { text: "> NAME: Krishna Yadav", type: "success" },
-          { text: "> ROLE: Frontend & Python Developer", type: "success" },
+          { text: "> ROLE: Web & Python Developer", type: "success" },
           { text: "> LOCATION: Lucknow, India", type: "success" },
           { text: "> STATUS: Available for internships", type: "success" },
           { text: "> BIO: CS undergraduate at AKTU (CGPA: 7.5)", type: "output" },
@@ -74,10 +74,10 @@ export function TerminalConsole({ onMatrixToggle }: { onMatrixToggle: () => void
         break;
       case "projects":
         setOutputLines((prev) => [...prev, 
-          { text: "1. Python Web Scraper & API [Python, FastAPI]", type: "success" },
-          { text: "2. Streamlit Data Dashboard [Python, Pandas]", type: "success" },
-          { text: "3. Responsive Portfolio UI [HTML, CSS, JS]", type: "success" },
-          { text: "4. Student Grade Calculator [C++]", type: "success" }
+          { text: "1. Real-Time Sign Language Translation [Python, CV, ML]", type: "success" },
+          { text: "2. AI Sales Voice Assistant [Python, NLP, Speech]", type: "success" },
+          { text: "3. Digital Detox Nudge [Python, Streamlit]", type: "success" },
+          { text: "4. Full Stack Python Projects [Python, Full Stack]", type: "success" }
         ]);
         break;
       case "contact":

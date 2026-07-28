@@ -1,47 +1,46 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
     id: 1,
-    title: "Python Web Scraper & API",
-    category: "Python",
-    description: "Built a REST API + web scraper using Python & FastAPI to fetch and serve structured data efficiently.",
-    tags: ["Python", "FastAPI", "BeautifulSoup", "JSON"],
+    title: "Real-Time Sign Language Translation",
+    category: "AI/ML",
+    description: "Web app converting live hand signs from webcam into text and speech, using computer vision, lightweight ML, and a responsive frontend.",
+    tags: ["Python", "Computer Vision", "ML", "JavaScript"],
     github: "#",
     demo: "#"
   },
   {
     id: 2,
-    title: "Streamlit Data Dashboard",
-    category: "Python",
-    description: "Interactive data visualization tool using Streamlit for real-time analytics and data processing.",
-    tags: ["Python", "Streamlit", "Pandas", "Matplotlib"],
+    title: "AI Sales Voice Assistant",
+    category: "AI/ML",
+    description: "Voice-based assistant using speech recognition and NLP to handle customer queries, share product details, and automate sales tasks.",
+    tags: ["Python", "NLP", "Speech Recognition", "AI"],
     github: "#",
     demo: "#"
   },
   {
     id: 3,
-    title: "Responsive Portfolio UI",
-    category: "Frontend",
-    description: "Personal portfolio site built from scratch with semantic HTML, CSS, and Bootstrap framework.",
-    tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+    title: "Digital Detox Nudge",
+    category: "Python",
+    description: "App comparing planned vs. actual app usage (manual input) to generate witty, non-preachy nudges about screen time habits.",
+    tags: ["Python", "Streamlit", "Data Analysis"],
     github: "#",
     demo: "#"
   },
   {
     id: 4,
-    title: "Student Grade Calculator",
-    category: "C++",
-    description: "CLI utility using C++ DSA concepts — linked lists for student records, grade computation and file I/O.",
-    tags: ["C++", "DSA", "File I/O"],
+    title: "Full Stack Python Projects",
+    category: "Python",
+    description: "Built and enhanced multiple web applications in Python through the full development cycle — requirements, coding, testing, and debugging during SRDT internship.",
+    tags: ["Python", "Full Stack", "HTML", "CSS"],
     github: "#",
     demo: "#"
   }
 ];
 
-const tabs = ["All", "Python", "Frontend", "C++"];
+const tabs = ["All", "AI/ML", "Python", "Frontend"];
 
 export function Projects() {
   const [activeTab, setActiveTab] = useState("All");
@@ -98,15 +97,6 @@ export function Projects() {
                   transition={{ duration: 0.3 }}
                   className="bg-card border-l-4 border-l-primary border-t border-r border-b border-border p-6 relative group hover:border-primary transition-colors hover:glow-red"
                 >
-                  <div className="absolute top-0 right-0 p-4 flex gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <a href={project.github} className="text-muted-foreground hover:text-primary" data-testid={`project-github-${project.id}`}>
-                      <Github className="w-5 h-5" />
-                    </a>
-                    <a href={project.demo} className="text-muted-foreground hover:text-primary" data-testid={`project-demo-${project.id}`}>
-                      <ExternalLink className="w-5 h-5" />
-                    </a>
-                  </div>
-                  
                   <div className="font-mono text-xs text-primary mb-3">//{project.category}</div>
                   <h3 className="text-2xl font-bold mb-3 text-foreground">{project.title}</h3>
                   <p className="text-muted-foreground text-sm mb-6 min-h-[60px]">
