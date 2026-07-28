@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronDown, Mail, Linkedin, Phone } from "lucide-react";
+import { ChevronDown, Mail, Linkedin, Phone, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TerminalConsole } from "../interactive/TerminalConsole";
 
@@ -162,6 +162,15 @@ export function Hero({ onMatrixToggle }: { onMatrixToggle: () => void }) {
               data-testid="hero-linkedin-link"
             >
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href="https://github.com/krish582005-eng"
+              target="_blank"
+              rel="noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              data-testid="hero-github-link"
+            >
+              <Github className="w-5 h-5" />
             </a>
             <a
               href="tel:+916388976420"

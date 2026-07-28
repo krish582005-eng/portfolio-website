@@ -26,7 +26,8 @@ import {
   Award,
   GraduationCap,
   Trophy,
-  FileText
+  FileText,
+  Github
 } from "lucide-react";
 
 function SidebarContent({
@@ -132,6 +133,15 @@ function SidebarContent({
             title="LinkedIn"
           >
             <Linkedin className="w-4 h-4" />
+          </a>
+          <a
+            href="https://github.com/krish582005-eng"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 border border-border bg-background hover:border-primary hover:text-primary transition-colors text-muted-foreground cursor-none"
+            title="GitHub"
+          >
+            <Github className="w-4 h-4" />
           </a>
           <a
             href="tel:+916388976420"
